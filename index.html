@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover Amazing places in Japan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__wrapper">
+          <div class="header__logo">
+            <a href="/" class="header_logo-link">
+              <img src="./img/odigo-logo.svg" alt="Discover Amazing places in Japan"/>
+            </a>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#intro-anchor" class="header__link">Home</a>
+              </li>
+              <li class="header__item">
+                <a href="#places-anchor" class="header__link">Trip</a>
+              </li>
+              <li class="header__item">
+                <a href="#top-anchor" class="header__link">Locations</a>
+              </li>
+              <li class="header__item">
+                <a href="#videos-anchor" class="header__link">Videos</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="intro" id="intro-anchor">
+        <div class="wrapper">
+          <h1 class="intro__title">Discover Amazing places in Japan</h1>
+          <p class="intro__subtitle">
+            Experience the magic of Japan — from majestic mountains to vibrant cities. Find inspiration for your next adventure and uncover hidden gems across the country.
+          </p>
+          <form class="search-form">
+            <fieldset class="search-form__wrapper">
+              <p class="search-form__info">
+                <input type="text" name="user-like-to-do" class="search-form__field" placeholder="What would you like to do?"/>
+                <input type="text" name="user-like-to-go" class="search-form__field" placeholder="Where would you like to go?"/>
+                <button type="submit" class="search-form__submit">
+                  search
+                </button>
+              </p>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div class="benefits__wrapper">
+          <h2 class="benefits__title">Benefits of Odigo</h2>
+          <div class="benefits__cards">
+            <div class="benefits__card">
+              <div class="benefits__card-pic">
+                <img src="./img/church-icon.svg" alt="church" />
+              </div>
+              <h3 class="benefits__card-title">Welcome to Odigo!</h3>
+              <p class="benefits__card-desc">
+                Odigo is your gateway to unforgettable journeys in Japan. Discover curated experiences tailored to your interests.
+              </p>
+              <a href="#!" class="benefits__card-more"> LEARN MORE </a>
+            </div>
+            <div class="benefits__card">
+              <div class="benefits__card-pic">
+                <img src="./img/person-icon.svg" alt="person" />
+              </div>
+              <h3 class="benefits__card-title">Your Personal Japan Guide</h3>
+              <p class="benefits__card-desc">
+                Get personalized recommendations, travel tips, and local insights to explore Japan like a native.
+              </p>
+              <a href="#!" class="benefits__card-more"> LEARN MORE </a>
+            </div>
+            <div class="benefits__card">
+              <div class="benefits__card-pic">
+                <img src="./img/building-icon.svg" alt="building" />
+              </div>
+              <h3 class="benefits__card-title">Promoting Local Businesses</h3>
+              <p class="benefits__card-desc">
+                Support local shops, restaurants, and accommodations while enjoying authentic Japanese culture.
+              </p>
+              <a href="#!" class="benefits__card-more"> LEARN MORE </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="places" id="places-anchor">
+        <div class="wrapper-full">
+          <div class="places__caption">
+            <h2 class="places__title section-title">
+              Get inspired for your next trip
+            </h2>
+            <a href="#!" class="places__view-all">VIEW ALL</a>
+          </div>
+
+          <div class="places__cards">
+            <figure class="places__card places__card_size_lg">
+              <img src="./img/places-1.jpg" alt="Mount Fuji" class="places__card-pic places__card-pic_size_lg"/>
+              <figcaption class="places__card-title">Mount Fuji</figcaption>
+              <a href="#!" class="places__card-link"></a>
+            </figure>
+
+            <figure class="places__card places__card_size_lg">
+              <img src="./img/places-2.jpg" alt="Kyoto" class="places__card-pic places__card-pic_size_lg"/>
+              <figcaption class="places__card-title">Kyoto</figcaption>
+              <a href="#!" class="places__card-link"></a>
+            </figure>
+
+            <figure class="places__card places__card_size_sm">
+              <img src="./img/places-3.jpg" alt="Tokyo" class="places__card-pic places__card-pic_size_sm"/>
+              <figcaption class="places__card-title">Tokyo</figcaption>
+              <a href="#!" class="places__card-link"></a>
+            </figure>
+
+            <figure class="places__card places__card_size_sm">
+              <img src="./img/places-4.jpg" alt="Niigata" class="places__card-pic places__card-pic_size_sm"/>
+              <figcaption class="places__card-title">Niigata</figcaption>
+              <a href="#!" class="places__card-link"></a>
+            </figure>
+
+            <figure class="places__card places__card_size_sm">
+              <img src="./img/places-5.jpg" alt="Sapporo" class="places__card-pic places__card-pic_size_sm"/>
+              <figcaption class="places__card-title">Sapporo</figcaption>
+              <a href="#!" class="places__card-link"></a>
+            </figure>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="tours">
+        <div class="wrapper-full">
+          <div class="tours__tour tour">
+            <div class="tour__pic tour__info_second-order">
+              <img src="./img/tour-1.jpg" alt="Totori" class="tour__thumb" />
+            </div>
+
+            <div class="tour__info tour__info_first-order">
+              <h3 class="tour__title">Prefecture in Focus: Tottori</h3>
+              <p class="tour__desc">
+                Tottori offers a peaceful escape with its famous sand dunes, scenic coastlines, and historic temples. A perfect blend of nature and tradition.
+              </p>
+              <a href="#!" class="tour__more">VIEW PREFECTURE</a>
+            </div>
+
+            <div class="tour__info tour__info_third-order">
+              <h3 class="tour__title">
+                Featured Neighborhood: Kyoto’s Arashiyama
+              </h3>
+              <p class="tour__desc">
+                Arashiyama is a serene district known for its bamboo groves, river views, and traditional charm. Ideal for a tranquil and cultural experience.
+              </p>
+              <a href="#!" class="tour__more">VIEW NEIGHBORHOOD</a>
+            </div>
+            
+            <div class="tour__pic tour__info_fourth-order">
+              <img src="./img/tour-2.jpg" alt="Kyoto" class="tour__thumb" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="top" id="top-anchor">
+        <div class="wrapper-full">
+          <h2 class="top__title section-title">Today top places to visit</h2>
+          <div class="top__cards">
+            <div class="top__card">
+              <div class="top__card-pic">
+                <img src="./img/top-pic-1.jpg" alt="NAGOYA" class="top__card-thumb"/>
+                <div class="top__card-stats">
+                  <h3 class="top__card-title">NAGOYA</h3>
+                  <div class="top__card-likes">
+                    <span class="top__card-likes-value"> 217 </span>
+                  </div>
+                  <div class="top__card-comments">
+                    <span class="top__card-comments-value"> 47 </span>
+                  </div>
+                </div>
+              </div>
+              <p class="top__card-desc">
+                Nagoya blends innovation and tradition. Explore its impressive castle, modern museums, and vibrant shopping districts.
+              </p>
+              <a href="#!" class="top__card-more">SEE MORE</a>
+            </div>
+            <div class="top__card">
+              <div class="top__card-pic">
+                <img src="./img/top-pic-2.jpg" alt="NIIGATA" class="top__card-thumb"/>
+                <div class="top__card-stats">
+                  <h3 class="top__card-title">NIIGATA</h3>
+                  <div class="top__card-likes">
+                    <span class="top__card-likes-value"> 277 </span>
+                  </div>
+                  <div class="top__card-comments">
+                    <span class="top__card-comments-value"> 65 </span>
+                  </div>
+                </div>
+              </div>
+              <p class="top__card-desc">
+                Niigata is known for its scenic coastline, delicious rice and sake, and beautiful mountain views. A perfect destination for nature lovers.
+              </p>
+              <a href="#!" class="top__card-more">SEE MORE</a>
+            </div>
+            <div class="top__card">
+              <div class="top__card-pic">
+                <img src="./img/top-pic-3.jpg" alt="OSAKA" class="top__card-thumb"/>
+                <div class="top__card-stats">
+                  <h3 class="top__card-title">OSAKA</h3>
+                  <div class="top__card-likes">
+                    <span class="top__card-likes-value"> 248 </span>
+                  </div>
+                  <div class="top__card-comments">
+                    <span class="top__card-comments-value"> 36 </span>
+                  </div>
+                </div>
+              </div>
+              <p class="top__card-desc">
+                Osaka is a city of contrasts, where historic castles meet neon-lit streets. Try local street food and feel the city's energy.
+              </p>
+              <a href="#!" class="top__card-more">SEE MORE</a>
+            </div>
+            <div class="top__card">
+              <div class="top__card-pic">
+                <img src="./img/top-pic-4.jpg" alt="SAITAMA" class="top__card-thumb"/>
+                <div class="top__card-stats">
+                  <h3 class="top__card-title">SAITAMA</h3>
+                  <div class="top__card-likes">
+                    <span class="top__card-likes-value"> 283 </span>
+                  </div>
+                  <div class="top__card-comments">
+                    <span class="top__card-comments-value"> 59 </span>
+                  </div>
+                </div>
+              </div>
+              <p class="top__card-desc">
+                Saitama offers a peaceful retreat near Tokyo. Enjoy lush parks, cultural museums, and a slower pace of life.
+              </p>
+              <a href="#!" class="top__card-more">SEE MORE</a>
+            </div>
+            <div class="top__card">
+              <div class="top__card-pic">
+                <img src="./img/top-pic-5.jpg" alt="UENO" class="top__card-thumb"/>
+                <div class="top__card-stats">
+                  <h3 class="top__card-title">UENO</h3>
+                  <div class="top__card-likes">
+                    <span class="top__card-likes-value"> 221 </span>
+                  </div>
+                  <div class="top__card-comments">
+                    <span class="top__card-comments-value"> 50 </span>
+                  </div>
+                </div>
+              </div>
+              <p class="top__card-desc">
+                Ueno is Tokyo’s cultural heart. Visit world-class museums, stroll through Ueno Park, and enjoy cherry blossoms in spring.
+              </p>
+              <a href="#!" class="top__card-more">SEE MORE</a>
+            </div>
+            <div class="top__card">
+              <div class="top__card-pic">
+                <img src="./img/top-pic-6.jpg" alt="SHIBUYA" class="top__card-thumb"/>
+                <div class="top__card-stats">
+                  <h3 class="top__card-title">SHIBUYA</h3>
+                  <div class="top__card-likes">
+                    <span class="top__card-likes-value"> 271 </span>
+                  </div>
+                  <div class="top__card-comments">
+                    <span class="top__card-comments-value"> 43 </span>
+                  </div>
+                </div>
+              </div>
+              <p class="top__card-desc">
+                Shibuya is the pulse of youth culture. Fashion, music, nightlife, and the iconic crossing — all in one dynamic district.
+              </p>
+              <a href="#!" class="top__card-more">SEE MORE</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="videos" id="videos-anchor">
+        <div class="videos__wrapper">
+          <div class="videos__item"></div>
+          <iframe class="videos__element" src="https://www.youtube.com/embed/AnP_vePDLWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__item">
+          <div class="footer__logo">
+            <img src="./img/odigo-logo-footer.svg" alt="logo-footer" />
+          </div>
+          <nav class="footer__nav">
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <h3 class="footer__menu-title">Company</h3>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#!" class="footer__menu-link">About</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#!" class="footer__menu-link">Team</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#!" class="footer__menu-link">Careers</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#!" class="footer__menu-link">Privacy Policy</a>
+              </li>
+            </ul>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <h3 class="footer__menu-title">Locations</h3>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#!" class="footer__menu-link">Tokyo</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#!" class="footer__menu-link">Kyoto</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#!" class="footer__menu-link">Osaka</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#!" class="footer__menu-link">Hokkaido</a>
+              </li>
+            </ul>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <h3 class="footer__menu-title">Social Media</h3>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#!" class="footer__menu-link">Facebook</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#!" class="footer__menu-link">Twitter</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#!" class="footer__menu-link">Instagram</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#!" class="footer__menu-link">Youtube</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
